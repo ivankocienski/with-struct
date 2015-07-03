@@ -15,6 +15,12 @@ Basically it builds a look up table of
 
 entries and then does a deep substitution of macro body's input code block.
 
+## Install
+
+Unfortunatly its not in quicklisp, so
+
+> git clone git@github.com:ivankocienski/with-struct.git ~/quicklisp/local-projects
+
 ## Caveats
 
 This macro is probably not fast if your code is read heavy. But you'd use
