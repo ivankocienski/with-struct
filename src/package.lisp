@@ -1,5 +1,5 @@
-;;;; package.lisp
 
 (defpackage #:with-struct
-  (:use #:cl))
+  (:use #:cl)
+  (:export #:with-struct))
 
